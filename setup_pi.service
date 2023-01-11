@@ -1,0 +1,8 @@
+[Unit]
+Description="Start autoconnect on boot"
+
+[Service]
+ExecStart=/usr/local/bin/pi-setup.sh
+
+[Install]
+WantedBy=multi-user.target

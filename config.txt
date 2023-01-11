@@ -1,0 +1,6 @@
+pi-setup.sh /usr/local/bin
+
+setup_pi.service /usr/lib/systemd/system
+
+enable_autoconnect.sh /home/ubuntu
+
